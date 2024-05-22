@@ -59,7 +59,7 @@
         </tr>
         <tr>
           <td>Reports To</td>
-          <td><input type="tel"></td>
+          <td><input type="select"></td>
         </tr>
       </table>
     </form>
@@ -110,12 +110,58 @@
   <h3>Optional info</h3>
   <hr>
   <div class="tform tform3">
-    <form action=""></form>
+    <form action="">
+      <table>
+        <tr>
+          <td>Notes</td>
+          <td>
+            <div class="mini-menu">
+              
+            
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>Preferred Shift</td>
+          <td>
+            <input type="checkbox" name="checkbox" id="checkbox">
+            <label for="checkbox">Regular</label><br>
+            <input type="checkbox" name="checkbox" id="checkbox">
+            <label for="checkbox">Gravy Yard</label>
+          </td>
+        </tr>
+        <tr>
+          <td>Active?</td>
+          <td><input type="checkbox" name="active"></td>
+        </tr>
+        <tr>
+          <td>Are you human?</td>
+          <td>
+            <div class="clicktochange">click to change</div>
+            <input type="text" name="checkcapcha">
+          </td>
+        </tr>
+      </table>
+    </form>
+  </div>
+  <hr>
+  <div class="foot">
+    <div class="option-button">
+      <div class="btn-change-page">
+        <input type="button" value="<">
+        <input type="button" value=">">
+      </div>
+      <div class="btn-submit">
+        <input type="button" name="btnsubmit" value="submit">
+        <input type="button" name="btncancel" value="cancel">
+      </div>
+    </div>
+    *required
   </div>
 </body>
 </html>
 
-<!-- <form action="">
+<!-- <form action="">..
         <label for="e-id">Employee ID</label>
         <label for="e-id">9</label><br>
 
