@@ -1,0 +1,33 @@
+.header{
+    justify-content: space-between;
+    background-color: #393995;
+    padding:10px;
+    text-align: center;
+}
+.btn{
+    margin-right: 10px;
+}
+#main{
+    margin-top: 40px;
+
+}
+table{
+    margin:20px;
+    width:100%;
+}
+
+tr,th,td{
+    padding:10px;
+    height:50px;
+
+}
+table img{
+    width: 30px;
+    margin:5px;
+}
+td{
+    border: 10px black;
+    border-radius: 5px;
+}
+
+
