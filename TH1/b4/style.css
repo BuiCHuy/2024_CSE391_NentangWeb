@@ -16,7 +16,7 @@ input[type=text], input[type=datetime], input[type=email]{
     padding-right: 30px;
 }
 .tform3 form table tr td{
-    padding-right: 100px;
+    padding-right: 30px;
 }
 .tform3 form table tr td .mini-menu{
     background-image: url('icon/mini-menu.png');
